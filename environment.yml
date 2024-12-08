@@ -1,0 +1,25 @@
+name: virel
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyter
+  - scikit-learn
+  - flask
+  - requests
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - torchaudio
+      - wandb
+      - visdom
+      - tsne-torch
+      - torch-geometric
+      - torch-scatter
+      - torch-sparse
