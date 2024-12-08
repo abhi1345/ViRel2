@@ -122,7 +122,7 @@ def get_root_dir():
     # print("Dirs", dirname_split)
     # index = dirname_split.index("BabyARC")
     # dirname = "/".join(dirname_split[:index + 1])
-    return dirname
+    return 'ViRel2'
 
 
 def load_dataset(filename, directory=None, isTorch=True):

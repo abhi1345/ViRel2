@@ -1309,8 +1309,8 @@ class ConceptCompositionDataset(Dataset):
         if idx_list is None:
             assert data is None
             dataset_engine = BabyARCDataset(
-                pretrained_obj_cache=os.path.join(get_root_dir(), 'BabyARC/data-files/arc_objs.pt'),
-                save_directory=get_root_dir() + "/concept_env/BabyARCDataset/",
+                pretrained_obj_cache=os.path.join('ViRel2/', 'BabyARC/data-files/arc_objs.pt'),
+                save_directory='ViRel2' + "/concept_env/BabyARCDataset/",
                 object_limit=None,
                 noise_level=0,
                 canvas_size=canvas_size,
